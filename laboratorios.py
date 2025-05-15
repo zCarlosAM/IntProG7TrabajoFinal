@@ -51,7 +51,8 @@ def crear_laboratorio(manual):
     # Y finalmente, retornamos el array del laboratorio
     return laboratorio
  
-# Función para mostrar el laboratorio 
+# Función para mostrar el laboratorio
+#------------------------------------------------------
 def mostrar_laboratorio(laboratorio, num):
     # Primero se muestra el nombre del laboratorio que estamos observando, obviamente
     print(f"Laboratorio {num + 1}")
@@ -130,5 +131,8 @@ def main():
     os.system("cls || clear")
     for i in range(LABORATORIOS):
         mostrar_laboratorio(laboratorios[i], i)
-        
-main()
+
+# Y como no podría faltar, la ejecución de la función main
+#------------------------------------------------------
+if __name__ == "__main__":
+    main()
