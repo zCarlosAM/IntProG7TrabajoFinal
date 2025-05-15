@@ -1,4 +1,4 @@
-# Ejercicio 4: Uso de computadoras en laboratorios
+# Ejercicio 2: Uso de computadoras en laboratorios
 #------------------------------------------------------
 # Autor: Carlos Daniel Aguirre Molina
 
@@ -119,11 +119,11 @@ def main():
             print("-" * 32)
             print(f"Laboratorio {i+1}")
             print("Ingrese 1 para computadoras ocupadas o 0 para disponibles")
+            
         laboratorios.append(crear_laboratorio(manual))
         
         # Lo mismo que el comentario anterior
         if(manual):
-            print()
             os.system("cls || clear")
             
     # Y por último mostramos cada laboratorio
